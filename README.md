@@ -26,6 +26,10 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Implement for this article: "Create a Multi-tenancy Application In Nest.js":
+- Part 1: https://dzone.com/articles/create-a-multi-tenancy-application-in-nestjs-part
+- Part 2: https://dzone.com/articles/create-a-multi-tenancy-application-in-nestjs-part-2
+
 ## Installation
 
 ```bash
@@ -45,7 +49,15 @@ $ docker run --name my-mongo-container -p 27017:27017 -d mongo
 $ npm run start
 
 # watch mode
+
+# main service
 $ npm run start:dev
+
+# notification service
+$ npm run start:dev notification
+
+ # user-service service
+$ npm run start:dev user-service
 
 # production mode
 $ npm run start:prod
@@ -63,6 +75,11 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Open brower:
+- Main service - http://localhost:3000/
+- Notification service - http://localhost:3001/
+- User service - http://localhost:3002/
 
 ## Support
 
