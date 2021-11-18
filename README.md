@@ -34,6 +34,8 @@ $ npm install
 $ docker run --name my-mysql-container -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql
 
 $ docker run --name my-redis-container -p 6379:6379 -d redis
+
+$ docker run --name my-mongo-container -p 27017:27017 -d mongo
 ```
 
 ## Running the app
