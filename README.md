@@ -30,6 +30,10 @@
 
 ```bash
 $ npm install
+
+$ docker run --name my-mysql-container -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql
+
+$ docker run --name my-redis-container -p 6379:6379 -d redis
 ```
 
 ## Running the app
